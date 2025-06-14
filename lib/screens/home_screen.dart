@@ -84,6 +84,12 @@ class _HomeScreenState extends State<HomeScreen> {
               },
             ),
             ListTile(
+              leading: Icon(Icons.remove_red_eye),
+              title: Text('진단'),
+              onTap: () {
+              },
+            ),
+            ListTile(
               leading: Icon(Icons.bar_chart),
               title: Text('기록'),
               onTap: () {
